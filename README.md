@@ -8,6 +8,7 @@
 5. Michael Haviland [@MichaelHaviland](https://github.com/MichaelHaviland)
 
 
+# Data Model
 
 # Data Dictionary: University Database
 
@@ -163,3 +164,15 @@
 | idClasses         | Foreign Key, references `Classes.idClasses`. Identifies the class assigned to the graduate instructor. | INT       |  |   | PK, FK  |
 | classStartDate    | The start date of the graduate instructor's assignment to the class. (i.e. Semester)     | VARCHAR   | 45   |     |    |
 | classEndDate      | The end date of the graduate instructor's assignment to the class. (i.e. Semester)        | VARCHAR   | 45   |     |    |
+
+
+# SQL Queries
+### Query 1 - View
+![Alt text](https://github.com/jackgust1/Team-MIS-Project-2/blob/main/Query1%20-%20View.png)
+### Query 1
+![Alt text](https://github.com/jackgust1/Team-MIS-Project-2/blob/main/Query1.png)
+### Query 1 - Description
+To start, we decided to create a view, ProgramGPA, by combining Student, StudentPrograms, and Programs in order to aggregate data to calculate the average GPA of every student within a specific program. By doing this, we have created a quick and reusable table that allows us access to this data.
+By creating this view, we were able to reference it within a query, which joins the view with StudentPrograms, in order to display the average GPA along with the amount of students enrolled within the program.
+### Query 3 - Justification
+This will serve as a vital and ongoing resource to the manager of the database because it allows them to see both academic performance, but also the enrollment trends surronding the performance. By allowing a manager to see this, they can better allocate instructional resources into high traffic programs where all students seem to trouble and double down investments into programs that they want to maintain performance in.
