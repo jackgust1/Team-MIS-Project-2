@@ -10,6 +10,8 @@
 
 # Data Model
 
+![Alt text](https://github.com/jackgust1/Team-MIS-Project-2/blob/main/image001.png)
+
 # Data Dictionary: University Database
 
 ---
@@ -171,8 +173,26 @@
 ![Alt text](https://github.com/jackgust1/Team-MIS-Project-2/blob/main/Query1%20-%20View.png)
 ### Query 1
 ![Alt text](https://github.com/jackgust1/Team-MIS-Project-2/blob/main/Query1.png)
-### Query 1 - Description
+#### Query 1 - Description
 To start, we decided to create a view, ProgramGPA, by combining Student, StudentPrograms, and Programs in order to aggregate data to calculate the average GPA of every student within a specific program. By doing this, we have created a quick and reusable table that allows us access to this data.
 By creating this view, we were able to reference it within a query, which joins the view with StudentPrograms, in order to display the average GPA along with the amount of students enrolled within the program.
-### Query 3 - Justification
+#### Query 1 - Justification
 This will serve as a vital and ongoing resource to the manager of the database because it allows them to see both academic performance, but also the enrollment trends surronding the performance. By allowing a manager to see this, they can better allocate instructional resources into high traffic programs where all students seem to trouble and double down investments into programs that they want to maintain performance in.
+
+### Query 2 - Procedure
+[Alt text](https://github.com/jackgust1/Team-MIS-Project-2/blob/main/Query%202%20-%20Procedure.png)
+### Query 2 - Call with Data
+[Alt text](https://github.com/jackgust1/Team-MIS-Project-2/blob/main/Query%202%20-%20Procedure%20Example.png)
+#### Query 2 - Description
+Primarily, we created the inputs currentTerm, which is a string representing the current term of the school year, and minGPA, which represents a minimum standing a student must be over to graduate. Second, we selected every student's ID, their name, which was is a combination of both the first name and last name attributes, their GPA, to later confirm good standing, and their expected graduation date from the Student and StudentPrograms tables. We set filters to where the expectedGraduationTerm would be equal to the current one and the student's overall cumulative GPA must be greater than or equal to the minimum standing. We then created the group by statement in order to efficiently show the data.
+#### Query 2 - Justification
+This query would be instrumental in graduation planning, allowing planners to see who graduates and if they qualify for academic honors and awards.
+
+## Query 3 - View
+![Alt text](https://github.com/jackgust1/Team-MIS-Project-2/blob/main/Query%203%20View.png)
+## Query 3
+![Alt text](https://github.com/jackgust1/Team-MIS-Project-2/blob/main/Query%203.png)
+#### Query 3 - Description
+This view allows for the counting of enrollment within a class and will either identify it as a high demand class (1) or a non high demand class (0). By doing this, we allowed ourselves to be able to play with, as in filter by subject, how we search for high demand classes from a managerial standpoint.
+#### Query 3 - Justification
+As a manager at the University, we would want to make sure that we can accomadate the high demand of certain majors and make sure that people can take the classes that they want to. If a class or a subject overall has too much demand, we know that we need to allocate more CRN's to the class or subject.
