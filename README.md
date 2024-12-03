@@ -7,7 +7,7 @@
 4. Emil Kali [@emk19648](https://github.com/emk19648)
 5. Michael Haviland [@MichaelHaviland](https://github.com/MichaelHaviland)
 
-# Data Dictionary
+
 
 # Data Dictionary: University Database
 
@@ -93,8 +93,8 @@
 | idParkingAssignment         | PK, unique identifier for parking assignment | INT       |      |        | PK   |
 | idParking                   | FK, references `Parking.idParking`         | INT       |      |        | FK   |
 | idStudent                   | FK, references `Student.idStudent`         | INT       |      |        | FK   |
-| parkingAssignmentStartDate  | Start date of parking assignment           | VARCHAR   | 45   |        |      |
-| parkingAssignmentEndDate    | End date of parking assignment             | VARCHAR   | 45   |        |      |
+| parkingAssignmentStartDate  | Start date of parking assignment(i.e. Semester)           | VARCHAR   | 45   |        |      |
+| parkingAssignmentEndDate    | End date of parking assignment(i.e. Semester)             | VARCHAR   | 45   |        |      |
 
 ---
 
@@ -125,8 +125,8 @@
 | idRoomAssignment        | PK, unique identifier for room assignment   | INT       |      |        | PK   |
 | idDormRoom              | FK, references `DormRoom.idDormRoom`        | INT       |      |        | FK   |
 | idStudent               | FK, references `Student.idStudent`          | INT       |      |        | FK   |
-| roomAssignmentStartDate | Start date of the room assignment            | VARCHAR   | 45   |        |      |
-| roomAssignmentEndDate   | End date of the room assignment              | VARCHAR   | 45   |        |      |
+| roomAssignmentStartDate | Start date of the room assignment(i.e. Semester)            | VARCHAR   | 45   |        |      |
+| roomAssignmentEndDate   | End date of the room assignment(i.e. Semester)              | VARCHAR   | 45   |        |      |
 
 ---
 
@@ -161,5 +161,5 @@
 |-------------------|-----------------------------------------------------------------------------|-----------|------|---------|
 | idGradInstructor  | Foreign Key, references `GraduateInstructor.idGradInstructor`. Represents the graduate instructor assigned to a specific class. | INT       |      | PK, FK  |
 | idClasses         | Foreign Key, references `Classes.idClasses`. Identifies the class assigned to the graduate instructor. | INT       |      | PK, FK  |
-| classStartDate    | The start date of the graduate instructor's assignment to the class. (i.e. 'Fall 2024')     | VARCHAR   | 45   |         |
-| classEndDate      | The end date of the graduate instructor's assignment to the class. (i.e. 'Winter 2024')        | VARCHAR   | 45   |         |
+| classStartDate    | The start date of the graduate instructor's assignment to the class. (i.e. Semester)     | VARCHAR   | 45   |         |
+| classEndDate      | The end date of the graduate instructor's assignment to the class. (i.e. Semester)        | VARCHAR   | 45   |         |
