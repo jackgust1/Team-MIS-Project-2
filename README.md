@@ -153,13 +153,13 @@
 ## Table: GraduateInstructors
 | Column Name        | Description                                                                                 | Data Type | Size | Format  |Key?    |
 |--------------------|---------------------------------------------------------------------------------------------|-----------|------|---------|--------|
-| idGradInstructor   | Primary Key, unique identifier for the graduate instructor. Represents a graduate student who serves as an instructor. | INT       |||      | PK, FK  |
+| idGradInstructor   | Primary Key, unique identifier for the graduate instructor. Represents a graduate student who serves as an instructor. | INT       ||      | PK, FK  |
 | idUndergradStudent | Foreign Key, references `Student.idStudent`. Identifies the undergraduate student linked to this graduate instructor for supervision or assistance. | INT       |    ||  | FK      |
 
 ## Table: GradInstructAssignments
 | Column Name       | Description                                                                 | Data Type | Size | Format |    Key?    |
 |-------------------|-----------------------------------------------------------------------------|-----------|------|---------|------------|
-| idGradInstructor  | Foreign Key, references `GraduateInstructor.idGradInstructor`. Represents the graduate instructor assigned to a specific class. | INT       |||      | PK, FK  |
-| idClasses         | Foreign Key, references `Classes.idClasses`. Identifies the class assigned to the graduate instructor. | INT       |   ||   | PK, FK  |
-| classStartDate    | The start date of the graduate instructor's assignment to the class. (i.e. Semester)     | VARCHAR   | 45   |     ||    |
-| classEndDate      | The end date of the graduate instructor's assignment to the class. (i.e. Semester)        | VARCHAR   | 45   |     ||    |
+| idGradInstructor  | Foreign Key, references `GraduateInstructor.idGradInstructor`. Represents the graduate instructor assigned to a specific class. | INT       ||      | PK, FK  |
+| idClasses         | Foreign Key, references `Classes.idClasses`. Identifies the class assigned to the graduate instructor. | INT       |  |   | PK, FK  |
+| classStartDate    | The start date of the graduate instructor's assignment to the class. (i.e. Semester)     | VARCHAR   | 45   |     |    |
+| classEndDate      | The end date of the graduate instructor's assignment to the class. (i.e. Semester)        | VARCHAR   | 45   |     |    |
