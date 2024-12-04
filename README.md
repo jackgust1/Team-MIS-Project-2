@@ -205,7 +205,7 @@ This procedure Lists the ID, first name, last name, and residing residence hall 
 This query helps the school find out which students are taking a major course load in the Terry Business School and how far they live from these classes. For example, a student with 4+ Terry Courses would likely rather reside closer to the business school, so in the future the University can optimize where people live based on what classes they are taking. Additionally, the school can create bus routes to and from the Terry Business school and corresponding dorms. This query would also help the University allocate parking close to the business school for students who don’t live on-campus but take many Terry courses. Lastly, this could help compare and monitor performance of students who do and don’t live near the business school.
 
 ## Query 5 - Views
-
+![Alt text](https://github.com/jackgust1/Team-MIS-Project-2/blob/main/Query%205%20-%20Views.png)
 ### Query 5
 ![Alt text](https://github.com/jackgust1/Team-MIS-Project-2/blob/main/Query%205%20-%20Example.png)
 #### Query 5 - Description
