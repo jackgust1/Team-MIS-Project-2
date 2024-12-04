@@ -212,3 +212,5 @@ This query helps the school find out which students are taking a major course lo
 The first of these views list the names of each Greek Life organization (listed as "social" under "organizationType") in the database and the amount of members in each organization. The second query is very similar to the first, but by using an inner join to connect StudentInvolvement to RoomAssignment, we're able to see how many members of each organization live on campus. The query, utilizing both of the views, simply lists the name of each Greek Life organization, the total membership, the amount of members living on campus, and the ratio of the members living on campus compared to the total.
 #### Query 5 - Justification
 These will serve to help keep track of the membership of Greek Life organizations, both the total membership and the number of members who live on campus. This data could help with organizing events regarding Greek Life or keeping track of the growth of Greek Life organizations over time.
+
+#Dashboard
