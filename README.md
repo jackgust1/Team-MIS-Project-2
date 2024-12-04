@@ -184,7 +184,7 @@ This will serve as a vital and ongoing resource to the manager of the database b
 ### Query 2 - Call with Data
 ![Alt text](https://github.com/jackgust1/Team-MIS-Project-2/blob/main/Query%202%20-%20Example.png)
 #### Query 2 - Description
-Primarily, we created the inputs currentTerm, which is a string representing the current term of the school year, and minGPA, which represents a minimum standing a student must be over to graduate. Second, we selected every student's ID, their name, which was is a combination of both the first name and last name attributes, their GPA, to later confirm good standing, and their expected graduation date from the Student and StudentPrograms tables. We set filters to where the expectedGraduationTerm would be equal to the current one and the student's overall cumulative GPA must be greater than or equal to the minimum standing. We then created the group by statement in order to efficiently show the data.
+Primarily, we created the inputs currentTerm, which is a string representing the current term of the school year, and minGPA, which represents a minimum standing a student must be over to graduate. Second, we selected every student's ID, their first and last names, their GPA (to later confirm good standing) and their expected graduation date from the Student and StudentPrograms tables. We set filters to where the expectedGraduationTerm would be equal to the current one and the student's overall cumulative GPA must be greater than or equal to the minimum standing. We then created the group by statement in order to efficiently show the data.
 #### Query 2 - Justification
 This query would be instrumental in graduation planning, allowing planners to see who graduates and if they qualify for academic honors and awards.
 
