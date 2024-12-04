@@ -215,6 +215,7 @@ These will serve to help keep track of the membership of Greek Life organization
 
 # Dashboard
 ![Alt text](workbook.png)
+![Alt text](https://github.com/jackgust1/Team-MIS-Project-2/blob/main/Student%20Data%20at%20the%20University%20of%20Georgia.twbx)
 #### GPA Trends Across Programs and Undergraduate Years
 The purpose of this visualization is to analyze the average GPA trends across different academic programs and specific undergraduate student years at the University of Georgia. This can identify patterns in academic performance and provide insights into which programs hold the highest achieving students and which programs may need additional resources allocated. The visual shows a heatmap where Blue indicates higher GPAs and Orange indicates lower GPAs. This offers a comparison of performance across different programs and undergraduate years. The visual shows that some programs maintain consistent academic performance across all years, while others have fluctuations. These patterns can help academic advisors at UGA advise and place students in different programs. This will also allow them to target resource allocation to improve student success in underperforming programs.
 Question that can be answered: Which academic programs have the highest GPAs across all student years?
