@@ -1,6 +1,6 @@
 # Team MIS Project 2
 
-#Team Members
+### Team Members
 1. Jack Gust [@jackgust1](https://github.com/jackgust1)
 2. Katie Lee [@kel64913](https://github.com/kel64913)
 3. Jolina Dorgan [@jolinadorgan](https://github.com/jolinadorgan)
