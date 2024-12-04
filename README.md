@@ -1,6 +1,6 @@
 # Team MIS Project 2
 
-### Team Members
+#### Team Members
 1. Jack Gust [@jackgust1](https://github.com/jackgust1)
 2. Katie Lee [@kel64913](https://github.com/kel64913)
 3. Jolina Dorgan [@jolinadorgan](https://github.com/jolinadorgan)
@@ -215,4 +215,8 @@ These will serve to help keep track of the membership of Greek Life organization
 
 # Dashboard
 ![Alt text](workbook.png)
+#### Distribution of GPAs for Commuters With vs Without Parking Permits
+The primary goal of this visualization is to determine whether holding an on campus parking permit has any correlation with academic performance. This could provide insight into whether access to parking impacts commuter students' ability to perform academically therefore determining if it would be mutually beneficial to UGA to increase access to on campus parking.  This visual displays two boxplots that have similar median GPAs, similar IQRs, and significant overlap in range and distribution. So while it may be inconvenient for commuters who do not have a parking permit, this visual suggests there is no significant difference in GPA distribution between the two groups.
+#### Question that can be answered: Does having a campus parking permit correlate with higher academic performance, as measured by GPA, for commuter students?
+
 
