@@ -214,4 +214,5 @@ The first of these views list the names of each Greek Life organization (listed 
 These will serve to help keep track of the membership of Greek Life organizations, both the total membership and the number of members who live on campus. This data could help with organizing events regarding Greek Life or keeping track of the growth of Greek Life organizations over time.
 
 # Dashboard
+![Alt text](workbook.png)
 
