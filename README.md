@@ -200,7 +200,14 @@ As a manager at the University, we would want to make sure that we can accomadat
 ## Query 4 - Procedure and Call with Data
 ![Alt text](https://github.com/jackgust1/Team-MIS-Project-2/blob/d326e629505079128e80d8de2c671aaaefdf1b52/Screenshot%202024-12-03%20at%207.13.02%20PM.png)
 #### Query 4 - Description
-This Procedure Lists the ID, first name, last name, and residing residence hall of students taking at least an undefined Terry classes (classes involving FINA or MIST) as well as how many Terry classes they are taking in descending order. By utilizing a left join we are also able to include students not living on campus. When we call this procedure, we can specifiy how many minimum Terry classes the students in the returned data are taking.
+This procedure Lists the ID, first name, last name, and residing residence hall of students taking at least an undefined Terry classes (classes involving FINA or MIST) as well as how many Terry classes they are taking in descending order. By utilizing a left join we are also able to include students not living on campus. When we call this procedure, we can specifiy how many minimum Terry classes the students in the returned data are taking.
 #### Query 4 - Justification
 This query helps the school find out which students are taking a major course load in the Terry Business School and how far they live from these classes. For example, a student with 4+ Terry Courses would likely rather reside closer to the business school, so in the future the University can optimize where people live based on what classes they are taking. Additionally, the school can create bus routes to and from the Terry Business school and corresponding dorms. This query would also help the University allocate parking close to the business school for students who don’t live on-campus but take many Terry courses. Lastly, this could help compare and monitor performance of students who do and don’t live near the business school.
 
+## Query 5 - Views
+
+### Query 5
+
+#### Query 5 - Description
+The first of these views list the names of each Greek Life organization (listed as "social" under "organizationType") in the database and the amount of members in each organization. The second query 
+#### Query 5 - Justification
