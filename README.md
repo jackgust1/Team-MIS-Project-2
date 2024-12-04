@@ -198,7 +198,7 @@ This view allows for the counting of enrollment within a class and will either i
 As a manager at the University, we would want to make sure that we can accomadate the high demand of certain majors and make sure that people can take the classes that they want to. If a class or a subject overall has too much demand, we know that we need to allocate more CRN's to the class or subject.
 
 ## Query 4 - Procedure and Call with Data
-![Alt text](https://github.com/jackgust1/Team-MIS-Project-2/blob/main/Screenshot%2024-12-03%at%7.13.02%PM.png)
+![Alt text](https://github.com/jackgust1/Team-MIS-Project-2/blob/d326e629505079128e80d8de2c671aaaefdf1b52/Screenshot%202024-12-03%20at%207.13.02%20PM.png)
 #### Query 4 - Justification
 This query helps the school find out which students are taking a major course load in the Terry Business School and how far they live from these classes. For example, a student with 4+ Terry Courses would likely rather reside closer to the business school, so in the future the University can optimize where people live based on what classes they are taking. Additionally, the school can create bus routes to and from the Terry Business school and corresponding dorms. This query would also help the University allocate parking close to the business school for students who don’t live on-campus but take many Terry courses. Lastly, this could help compare and monitor performance of students who do and don’t live near the business school.
 
